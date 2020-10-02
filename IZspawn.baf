@@ -1,0 +1,9 @@
+IF
+Global("IZspawn","GLOBAL",0)
+
+THEN RESPONSE #100
+
+CreateCreature("IZMendak",[250.480],E)
+
+SetGlobal("IZspawn","GLOBAL",1)
+END
